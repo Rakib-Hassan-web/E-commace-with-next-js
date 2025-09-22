@@ -22,9 +22,26 @@ return (
                     </h2>
                     <div className='flex gap-2 items-center mt-8'>
                         <button className='w-2 h-2 rounded-full bg-red-500'></button>
-                        <p className='font-lato font-medium text-[#ACABC3] text-base'>All frames constructed with hardwood solids and laminates</p>
+                        <p className='font-lato font-medium text-[#ACABC3] text-base'>All frames constructed with
+                            hardwood solids and laminates</p>
                     </div>
 
+
+                    <div className='flex gap-2   items-center mt-8 w-[480px]'>
+                        <button className='w-2 h-2 rounded-full bg-blue-500'></button>
+                        <p className='font-lato font-medium text-[#ACABC3] text-base'>Reinforced with double wood
+                            dowels, glue, screw - nails corner
+                        </p>
+                    </div>
+
+
+
+                    <div className='flex gap-2   items-center mt-8 w-[480px]'>
+                        <button className='w-2 h-2 rounded-full bg-green-500'></button>
+                        <p className='font-lato font-medium text-[#ACABC3] text-base'>Arms, backs and seats are
+                            structurally reinforced
+                        </p>
+                    </div>
 
 
                 </div>
