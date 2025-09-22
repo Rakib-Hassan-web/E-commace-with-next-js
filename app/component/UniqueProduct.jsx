@@ -11,7 +11,14 @@ const UniqueProduct = () => {
             <div>
 
              <div>
-        
+                <Image
+                
+                src={"/Group 153.png"}
+                width={558}
+                height={550}
+                alt='Product'
+                
+                />
              </div>
             </div>
         </div>
