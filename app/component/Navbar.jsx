@@ -32,7 +32,12 @@ const Navbar = () => {
 {/* -----search bar------- */}
 
 <div>
-    <input type="text" className="w-[250px] py-3 border-2 border-[#E7E6EF] outline-none"  />
+    <input type="text" className="w-[250px] py-2.5 text-base font-lato font-normal text-[#0D0E43] border-2 border-[#E7E6EF] outline-none"  />
+
+    <div>
+        {/* <CiSearch /> */}
+
+    </div>
 </div>
 
 
