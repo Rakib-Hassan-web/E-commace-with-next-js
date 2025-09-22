@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Adamina&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 
@@ -16,6 +20,7 @@
   --color-pink:#FB2E86;
   --font-josef:"Josefin Sans", sans-serif;
   --font-aby: "Abyssinica SIL", serif;
+  --font-adaminaaa: "Adamina", serif;
 }
 
 
