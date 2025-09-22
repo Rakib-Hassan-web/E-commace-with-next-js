@@ -9,7 +9,7 @@ const Offer = () => {
     
     
     
-    <section id='prodects' className='mt-[147px]  mb-1000 '>
+    <section id='prodects' className='mt-[147px]   '>
         <div className="container">
             <div>
                 <h1 className=' font-aby font-normal text-[42px] text-[#1A0B5B] text-center'>What Shopex Offer!</h1>
@@ -123,7 +123,7 @@ const Offer = () => {
 
 
 
-<h2>ses</h2>
+
 
 
 
