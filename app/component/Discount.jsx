@@ -46,7 +46,7 @@ const Discount = () => {
 <p className='text-[21px] font-adaminaaa font-medium text-pink'>Eams Sofa Compact</p>
 
 <p className='w-[523px] font-lato font-normal text-base text-[#B7BACB] mt-5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu eget feugiat habitasse nec, bibendum condimentum.</p>
-
+{/* ----------1st row------- */}
 <div className='mt-7 flex items-center gap-10'>
     <div className='flex items-center gap-1'>
         <MdDone className='text-xl text-[#7569B2]'/>
@@ -61,6 +61,24 @@ const Discount = () => {
 
     </div>
 </div>
+
+
+{/* --------2nd row------ */}
+<div className='mt-2.5 flex items-center gap-17'>
+    <div className='flex items-center gap-1'>
+        <MdDone className='text-xl text-[#7569B2]'/>
+
+        <p className='font-lato font-normal text-base text-[#B8B8DC] '>Simple neutral colours.</p>
+
+    </div>
+       <div className='flex items-center gap-1'>
+        <MdDone className='text-xl text-[#7569B2]'/>
+
+        <p className='font-lato font-normal text-base text-[#B8B8DC] '>Material expose like metals</p>
+
+    </div>
+</div>
+
 
 </div>
 
