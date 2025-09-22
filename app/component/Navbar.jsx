@@ -27,6 +27,17 @@ const Navbar = () => {
           <li><Link href="/contact" className="text-[#0D0E43] font-lato text-base font-normal hover:text-[#FB2E86] duration-300">Shop</Link></li>
           <li><Link href="/contact" className="text-[#0D0E43] font-lato text-base font-normal hover:text-[#FB2E86] duration-300">Contact</Link></li>
         </ul>
+
+
+{/* -----search bar------- */}
+
+<div>
+    <input type="text" className="w-[250px] py-3 border-2 border-[#E7E6EF] outline-none"  />
+</div>
+
+
+
+
       </div>
     </nav>
   );
