@@ -5,6 +5,7 @@ import FeaturedProducts from './component/FeaturedProducts'
 import LeatestProducts from './component/LeatestProducts'
 import Offer from './component/Offer'
 import UniqueProduct from './component/UniqueProduct'
+import TreandingProduct from './component/TreandingProduct'
 
 const page = () => {
   return (
@@ -17,6 +18,7 @@ const page = () => {
     <LeatestProducts/>
     <Offer/>
     <UniqueProduct/>
+    <TreandingProduct/>
     
     </>
   )
