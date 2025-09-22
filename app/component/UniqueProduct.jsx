@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 
 const UniqueProduct = () => {
@@ -43,6 +44,23 @@ return (
                         </p>
                     </div>
 
+
+                    {/* ---------last part------ */}
+                    <div className='flex gap-10 items-center'>
+
+                        <div className='mt-[40px]'>
+                            <Link href={'#'}
+                                className='py-[15px] px-[43px] bg-pink rounded-[5px] text-white font-adaminaaa font-medium text-base hover:bg-[#2F1AC4] duration-300'>
+                            Add To Cart
+                            </Link>
+                        </div>
+
+                        <div className='mt-8'>
+                            <h2 className='text-[#151875] text-sm font-medium font-adaminaaa'>B&B Italian Sofa </h2>
+                            <h2 className='text-[#151875] text-sm font-medium font-adaminaaa'>$32.00 </h2>
+                        </div>
+
+                    </div>
 
                 </div>
             </div>
