@@ -103,7 +103,7 @@ const Offer = () => {
                   
                   <div className='flex justify-center mt-14'>
                         <Image  
-                        src={'/free-delivery 1.png'}
+                        src={'/24-hours-support 1.png'}
                         width={65}
                         height={43}
                         alt='logo'
