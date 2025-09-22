@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
+import { CiSearch } from "react-icons/ci";
 
 const Navbar = () => {
   return (
@@ -31,11 +32,12 @@ const Navbar = () => {
 
 {/* -----search bar------- */}
 
-<div>
-    <input type="text" className="w-[250px] py-2.5 text-base font-lato font-normal text-[#0D0E43] border-2 border-[#E7E6EF] outline-none"  />
+<div className="flex items-center">
+    <input type="text" className="w-[250px] py-2.5 text-base font-lato font-normal text-[#0D0E43] border-2 border-[#E7E6EF] outline-none border-r-0"  />
 
-    <div>
-        {/* <CiSearch /> */}
+    <div className="w-[50px] bg-[#FB2E86] py-[9px] text-3xl   font-extrabold text-[#fff] flex items-center justify-center ">
+     <CiSearch/>
+
 
     </div>
 </div>
