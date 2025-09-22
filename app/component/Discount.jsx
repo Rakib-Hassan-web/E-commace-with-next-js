@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 import { MdDone } from "react-icons/md";
+import Image from 'next/image';
 
 
 const Discount = () => {
@@ -35,7 +36,7 @@ return (
 
         {/* -------botom part------ */}
 
-        <div>
+        <div className='flex  justify-around items-center mt-10'>
 
 
 
@@ -94,6 +95,11 @@ return (
 
             {/* -----imnage------ */}
 
+
+            <div>
+                <Image src={'/Group 154.png'} width={699} height={599} alt='product' />
+
+            </div>
 
 
 
