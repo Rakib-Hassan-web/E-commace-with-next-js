@@ -77,7 +77,7 @@ const Offer = () => {
                   
                   <div className='flex justify-center mt-14'>
                         <Image  
-                        src={'/free-delivery 1.png'}
+                        src={'/premium-quality 1.png'}
                         width={65}
                         height={43}
                         alt='logo'
