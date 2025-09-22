@@ -37,7 +37,7 @@ return (
 
                 {/* ----------1st row of products------------ */}
 
-                <div className='mt-[62px]'>
+                <div className='mt-[62px] flex items-center justify-between'>
 
                     {/* ------siingle product----- */}
                     <div className='relative group w-[360px] h-[306px]'>
