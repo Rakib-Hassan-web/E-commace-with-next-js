@@ -163,6 +163,132 @@ return (
 
 
 
+{/* -------------------2nd row of products-------------- */}
+
+<div className='mt-[116px] flex items-center justify-between'>
+
+                    {/* ------siingle product----- */}
+                    <div className='relative group w-[360px] h-[306px]'>
+
+                        <img src="#" alt="Product Image" className='w-full h-[270px] bg-gray-100 rounded-md' />
+
+                        {/* hover cart icon */}
+                        <div
+                            className="absolute top-20 left-4    opacity-0 group-hover:opacity-100 transition duration-300">
+                            <button
+                                className="bg-white p-2 rounded-full shadow hover:bg-[#FB2448] hover:text-white duration-300">
+                                <AiOutlineShoppingCart />
+
+                            </button>
+
+                        </div>
+                        <div
+                            className="absolute top-30 left-4 opacity-0 group-hover:opacity-100 transition duration-300 ">
+                            <button
+                                className="bg-white p-2 rounded-full shadow hover:bg-[#FB2448] hover:text-white duration-300">
+                                <GiSelfLove />
+
+                            </button>
+
+                        </div>
+
+                        <div className=' mt-4 flex items-center justify-between '>
+                            <h2 className='  font-adaminaaa font-medium text-base text-[#151875]'>Comfort Handy Craft
+                            </h2>
+                            <div className='flex gap-3.5'>
+                                <p className=' font-adaminaaa font-bold text-[14px] text-[#151875]'>$42.00</p>
+                                <p className=' font-adaminaaa font-bold text-[12px] text-[#FB2448] line-through'> $65.00
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    {/* ------siingle product----- */}
+                    <div className='relative group w-[360px] h-[306px]'>
+
+                        <img src="#" alt="Product Image" className='w-full h-[270px] bg-gray-100 rounded-md' />
+
+                        {/* hover cart icon */}
+                        <div
+                            className="absolute top-20 left-4    opacity-0 group-hover:opacity-100 transition duration-300">
+                            <button
+                                className="bg-white p-2 rounded-full shadow hover:bg-[#FB2448] hover:text-white duration-300">
+                                <AiOutlineShoppingCart />
+
+                            </button>
+
+                        </div>
+                        <div
+                            className="absolute top-30 left-4 opacity-0 group-hover:opacity-100 transition duration-300 ">
+                            <button
+                                className="bg-white p-2 rounded-full shadow hover:bg-[#FB2448] hover:text-white duration-300">
+                                <GiSelfLove />
+
+                            </button>
+
+                        </div>
+
+                        <div className=' mt-4 flex items-center justify-between '>
+                            <h2 className='  font-adaminaaa font-medium text-base text-[#151875]'>Comfort Handy Craft
+                            </h2>
+                            <div className='flex gap-3.5'>
+                                <p className=' font-adaminaaa font-bold text-[14px] text-[#151875]'>$42.00</p>
+                                <p className=' font-adaminaaa font-bold text-[12px] text-[#FB2448] line-through'> $65.00
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+
+                    {/* ------siingle product----- */}
+                    <div className='relative group w-[360px] h-[306px]'>
+
+                        <img src="#" alt="Product Image" className='w-full h-[270px] bg-gray-100 rounded-md' />
+
+                        {/* hover cart icon */}
+                        <div
+                            className="absolute top-20 left-4    opacity-0 group-hover:opacity-100 transition duration-300">
+                            <button
+                                className="bg-white p-2 rounded-full shadow hover:bg-[#FB2448] hover:text-white duration-300">
+                                <AiOutlineShoppingCart />
+
+                            </button>
+
+                        </div>
+                        <div
+                            className="absolute top-30 left-4 opacity-0 group-hover:opacity-100 transition duration-300 ">
+                            <button
+                                className="bg-white p-2 rounded-full shadow hover:bg-[#FB2448] hover:text-white duration-300">
+                                <GiSelfLove />
+
+                            </button>
+
+                        </div>
+
+                        <div className=' mt-4 flex items-center justify-between '>
+                            <h2 className='  font-adaminaaa font-medium text-base text-[#151875]'>Comfort Handy Craft
+                            </h2>
+                            <div className='flex gap-3.5'>
+                                <p className=' font-adaminaaa font-bold text-[14px] text-[#151875]'>$42.00</p>
+                                <p className=' font-adaminaaa font-bold text-[12px] text-[#FB2448] line-through'> $65.00
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+
+
+
+                </div>
+
 
 
             </div>
