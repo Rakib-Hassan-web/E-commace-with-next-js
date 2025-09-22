@@ -1,12 +1,29 @@
 import Link from 'next/link'
 import React from 'react'
 
+import Image from "next/image";
+
+
 const Banner = () => {
 return (
 <>
 
 
-    <section id='banner' className='bg-[#F2F0FF] pb-[236px] pt-[203px] w-full'>
+    <section id='banner' className='bg-[#F2F0FF] pb-[236px] pt-[203px] w-full relative'>
+
+        {/* ------position image----- */}
+
+        <div className='a absolute top-10 right-25'> 
+            <Image
+            src={'/bannerSofa.png'}
+            width={706}
+            height={689}
+            alt='sofa'
+            
+            
+            />
+            
+        </div>
 
         <div className="container">
             <div className="div">
