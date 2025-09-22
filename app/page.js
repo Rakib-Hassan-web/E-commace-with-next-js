@@ -6,6 +6,7 @@ import LeatestProducts from './component/LeatestProducts'
 import Offer from './component/Offer'
 import UniqueProduct from './component/UniqueProduct'
 import TreandingProduct from './component/TreandingProduct'
+import Discount from './component/Discount'
 
 const page = () => {
   return (
@@ -19,6 +20,7 @@ const page = () => {
     <Offer/>
     <UniqueProduct/>
     <TreandingProduct/>
+    <Discount/>
     
     </>
   )
