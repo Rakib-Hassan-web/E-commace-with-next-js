@@ -3,6 +3,7 @@ import Navbar from './component/Navbar'
 import Banner from './component/Banner'
 import FeaturedProducts from './component/FeaturedProducts'
 import LeatestProducts from './component/LeatestProducts'
+import Offer from './component/Offer'
 
 const page = () => {
   return (
@@ -13,6 +14,7 @@ const page = () => {
     <Banner/>
     <FeaturedProducts/>
     <LeatestProducts/>
+    <Offer/>
     
     </>
   )
