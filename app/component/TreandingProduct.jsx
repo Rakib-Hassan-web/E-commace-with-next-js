@@ -7,7 +7,7 @@ const TreandingProduct = () => {
      <section id='Treanding prodects' className='mt-[147px]  '>
         <div className="container">
             <div>
-                <h1 className=' font-aby font-normal text-[42px] text-[#1A0B5B] text-center'>Featured Products</h1>
+                <h1 className=' font-aby font-normal text-[42px] text-[#1A0B5B] text-center'>Trending Products</h1>
             </div>
 
             {/* ------------all carts------- */}
