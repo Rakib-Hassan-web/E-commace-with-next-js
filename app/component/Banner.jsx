@@ -19,11 +19,28 @@ return (
             width={706}
             height={689}
             alt='sofa'
+               />
+        </div>
+
+
+        
+        <div className='a absolute top-0 left-[-110px]'> 
+            <Image
+            src={'/bannerDesign.png'}
+            width={387}
+            height={387}
+            alt='sofa'
             
             
             />
             
         </div>
+
+
+
+
+
+        {/* --------text part------- */}
 
         <div className="container">
             <div className="div">
