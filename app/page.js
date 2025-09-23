@@ -8,6 +8,7 @@ import UniqueProduct from './component/UniqueProduct'
 import TreandingProduct from './component/TreandingProduct'
 import Discount from './component/Discount'
 import Subscribe from './component/Subscribe'
+import Topcategorys from './component/Topcategorys'
 
 const page = () => {
   return (
@@ -22,6 +23,7 @@ const page = () => {
     <UniqueProduct/>
     <TreandingProduct/>
     <Discount/>
+    <Topcategorys/>
     <Subscribe/>
     
     </>

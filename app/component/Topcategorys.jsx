@@ -1,13 +1,13 @@
 import React from 'react'
 
 const Topcategorys = () => {
-  return (
-    <>
-    
-    
-    <section id='top_category'>
+return (
+<>
 
-         <div className="container">
+
+    <section id='top_category' className='mb-200'>
+
+        <div className="container">
             <div>
                 <h1 className=' font-aby font-normal text-[42px] text-[#1A0B5B] text-center'>Featured Products</h1>
             </div>
@@ -17,88 +17,24 @@ const Topcategorys = () => {
 
 
 
+                <div className='w-[270px] h-[270px] group relative'>
+                    <img src="#" alt="product image" className='w-full h-full rounded-full bg-gray-100' />
 
-
-
-                <div className='w-[270px] h-[351px] shadow-[0px_4px_30px_0px_rgba(31,_38,_135,_0.15)] rounded-md  hover:bg-[#2F1AC4]  hover:text-white duration-300  group '>
-                    <img src="#" alt="product image" className='w-full h-[214px] bg-gray-100' />
-
-
-
-                    <h2 className='text-[18px] font-bold text-pink text-center mt-4 font-lato group-hover:text-white'>Cantilever chair</h2>
-                    <div className='flex  justify-center items-center gap-2 mt-4'>
-                        <button className='w-5 h-1.5 bg-red-500 rounded-4xl  cursor-pointer  '></button>
-                        <button className='w-5 h-1.5 bg-blue-500 rounded-4xl  cursor-pointer '></button>
-                        <button className='w-5 h-1.5 bg-green-500 rounded-4xl  cursor-pointer '></button>
-                    </div>
-                    <p className='text-[14px] font-semibold text-[#151875]  text-center mt-[10px] font-lato  group-hover:text-white'>Code -
-                        Y523201</p>
-                    <p className='text-[14px] font-semibold text-[#151875] text-center mt-[8px] font-lato  group-hover:text-white'>$42.00
+                    <p
+                        className='text-[18px] font-medium text-[#151875] text-center mt-[10px] font-adaminaaa '>
+                        Mini LCW Chair
+                    </p>
+                    <p
+                        className='text-[14px] font-semibold text-[#151875] text-center mt-[8px] font-lato '>
+                        $56.00
                     </p>
 
-
-                </div>
-
-
-
-   <div className='w-[270px] h-[351px] shadow-[0px_4px_30px_0px_rgba(31,_38,_135,_0.15)] rounded-md  hover:bg-[#2F1AC4]  hover:text-white duration-300  group '>
-                    <img src="#" alt="product image" className='w-full h-[214px] bg-gray-100' />
-
-
-
-                    <h2 className='text-[18px] font-bold text-pink text-center mt-4 font-lato group-hover:text-white'>Cantilever chair</h2>
-                    <div className='flex  justify-center items-center gap-2 mt-4'>
-                        <button className='w-5 h-1.5 bg-red-500 rounded-4xl  cursor-pointer  '></button>
-                        <button className='w-5 h-1.5 bg-blue-500 rounded-4xl  cursor-pointer '></button>
-                        <button className='w-5 h-1.5 bg-green-500 rounded-4xl  cursor-pointer '></button>
-                    </div>
-                    <p className='text-[14px] font-semibold text-[#151875]  text-center mt-[10px] font-lato  group-hover:text-white'>Code -
-                        Y523201</p>
-                    <p className='text-[14px] font-semibold text-[#151875] text-center mt-[8px] font-lato  group-hover:text-white'>$42.00
-                    </p>
-
-
-                </div>
-
-
-
-
-
-   <div className='w-[270px] h-[351px] shadow-[0px_4px_30px_0px_rgba(31,_38,_135,_0.15)] rounded-md  hover:bg-[#2F1AC4]  hover:text-white duration-300  group '>
-                    <img src="#" alt="product image" className='w-full h-[214px] bg-gray-100' />
-
-
-
-                    <h2 className='text-[18px] font-bold text-pink text-center mt-4 font-lato group-hover:text-white'>Cantilever chair</h2>
-                    <div className='flex  justify-center items-center gap-2 mt-4'>
-                        <button className='w-5 h-1.5 bg-red-500 rounded-4xl  cursor-pointer  '></button>
-                        <button className='w-5 h-1.5 bg-blue-500 rounded-4xl  cursor-pointer '></button>
-                        <button className='w-5 h-1.5 bg-green-500 rounded-4xl  cursor-pointer '></button>
-                    </div>
-                    <p className='text-[14px] font-semibold text-[#151875]  text-center mt-[10px] font-lato  group-hover:text-white'>Code -
-                        Y523201</p>
-                    <p className='text-[14px] font-semibold text-[#151875] text-center mt-[8px] font-lato  group-hover:text-white'>$42.00
-                    </p>
-
-
-                </div>
-
-
-
-
-   <div className='w-[270px] h-[351px] shadow-[0px_4px_30px_0px_rgba(31,_38,_135,_0.15)] rounded-md  hover:bg-[#2F1AC4]  hover:text-white duration-300  group '>
-                    <img src="#" alt="product image" className='w-full h-[214px] bg-gray-100' />
-
-
-
-                    <h2 className='text-[18px] font-bold text-pink text-center mt-4 font-lato group-hover:text-white'>Cantilever chair</h2>
-              
-                    <p className='text-[14px] font-semibold text-[#151875]  text-center mt-[10px] font-lato  group-hover:text-white'>Code -
-                        Y523201</p>
-                    <p className='text-[14px] font-semibold text-[#151875] text-center mt-[8px] font-lato  group-hover:text-white'>$42.00
-                    </p>
-
-
+                    {/* Hover button */}
+                    <b
+                    utton
+                        className='absolute bottom-4 left-1/2 -translate-x-1/2 cursor-pointer font-lato font-medium  px-4 py-2 bg-green-500 text-white rounded-md opacity-0 group-hover:opacity-100 transition duration-300'>
+                        View Shop
+                    </b>
                 </div>
 
 
@@ -115,13 +51,13 @@ const Topcategorys = () => {
         </div>
 
     </section>
-    
-    
-    
-    
-    
-    </>
-  )
+
+
+
+
+
+</>
+)
 }
 
 export default Topcategorys
