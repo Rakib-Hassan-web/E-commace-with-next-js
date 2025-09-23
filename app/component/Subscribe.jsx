@@ -18,7 +18,7 @@ const Subscribe = () => {
 
         </div>
 <div className="container z-20">
-    <h2 className=''>Get Leatest Update By Subscribe
+    <h2 className=' relative z-10 '>Get Leatest Update By Subscribe
 0ur Newslater</h2>
 </div>
     </section>
