@@ -5,7 +5,7 @@ return (
 <>
 
 
-    <section id='top_category' className='mb-200'>
+    <section id='top_category' className=''>
 
         <div className="container">
             <div>
