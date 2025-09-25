@@ -10,6 +10,7 @@ import Discount from './component/Discount'
 import Subscribe from './component/Subscribe'
 import Topcategorys from './component/Topcategorys'
 import Blog from './component/Blog'
+import Footer from './component/Footer'
 
 const page = () => {
   return (
@@ -27,6 +28,7 @@ const page = () => {
     <Topcategorys/>
     <Subscribe/>
     <Blog/>
+    <Footer/>
     
     </>
   )
