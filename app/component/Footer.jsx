@@ -9,6 +9,7 @@ const Footer = () => {
     <footer className="bg-[#EEEFFB] ">
       <div className="container mx-auto px-4 py-12 flex flex-col md:flex-row md:justify-between md:items-start gap-10  ">
         
+        <div>
         {/* Brand / Newsletter */}
         <div className="md:w-1/4 pt-20">
           <h2 className="text-2xl text-[38px] font-normal font-adaminaaa text-black  mb-4">Hekto</h2>
@@ -24,13 +25,13 @@ const Footer = () => {
           </div>
           <div className="mt-4 text-sm text-gray-600">
             <p className="font-normal text-base text-[#8A8FB9] font-lato ">Contact Info</p>
-            <p>17 Princess Road, London, Greater London NW1 8JR, UK</p>
+            <p className="font-normal text-[13px] mt-3 text-[#8A8FB9] font-lato ">17 Princess Road, London, Greater London NW1 8JR, UK</p>
           </div>
         </div>
 
         {/* Categories */}
         <div className="md:w-1/4 pt-20">
-          <h3 className="font-semibold text-lg mb-4">Categories</h3>
+          <h3 className=" text-[22px] font-normal font-adaminaaa text-black mb-8">Categories</h3>
           <ul className="space-y-2 text-gray-600">
             <li>Laptops & Computers</li>
             <li>Cameras & Photography</li>
@@ -64,6 +65,7 @@ const Footer = () => {
             <li>WooCommerce Pages</li>
           </ul>
         </div>
+      </div>
       </div>
     </footer>
 
