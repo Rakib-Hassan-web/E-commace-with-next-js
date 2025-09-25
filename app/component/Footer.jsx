@@ -7,9 +7,8 @@ const Footer = () => {
     
 
     <footer className="bg-[#EEEFFB] ">
-      <div className="container mx-auto px-4 py-12 flex flex-col md:flex-row md:justify-between md:items-start gap-10  ">
+      <div className="container mx-auto px-4 py-12 flex flex-col md:flex-row md:justify-between md:items-start  gap-10  ">
         
-        <div className='flex flex-row justify-between'>
         {/* Brand / Newsletter */}
         <div className="md:w-1/4 pt-20">
           <h2 className="text-2xl text-[38px] font-normal font-adaminaaa text-black  mb-4">Hekto</h2>
@@ -29,9 +28,8 @@ const Footer = () => {
           </div>
         </div>
 
-<div className='flex flex-row items-center justify-around'>
         {/* Categories */}
-        <div className="md:w-1/4 pt-20">
+        <div className="md:w-1/4 pt-20 pl-20">
           <h3 className=" text-[22px] font-normal font-adaminaaa text-black mb-8">Categories</h3>
           <ul className="space-y-2 text-gray-600">
             <li>Laptops & Computers</li>
@@ -43,8 +41,8 @@ const Footer = () => {
         </div>
 
         {/* Customer Care */}
-        <div className="md:w-1/4 pt-20">
-          <h3 className="font-semibold text-lg mb-4">Customer Care</h3>
+        <div className="md:w-1/4 pt-20 pl-20">
+          <h3 className="text-[22px] font-normal font-adaminaaa text-black mb-8">Customer Care</h3>
           <ul className="space-y-2 text-gray-600">
             <li>My Account</li>
             <li>Discount</li>
@@ -55,7 +53,7 @@ const Footer = () => {
         </div>
 
         {/* Pages */}
-        <div className="md:w-1/4 pt-20">
+        <div className="md:w-1/4 pt-20 pl-20">
           <h3 className="font-semibold text-lg mb-4">Pages</h3>
           <ul className="space-y-2 text-gray-600">
             <li>Blog</li>
@@ -66,8 +64,6 @@ const Footer = () => {
             <li>WooCommerce Pages</li>
           </ul>
         </div>
-        </div>
-      </div>
       </div>
     </footer>
 
