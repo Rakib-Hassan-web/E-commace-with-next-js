@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className="bg-[#EEEFFB] ">
       <div className="container mx-auto px-4 py-12 flex flex-col md:flex-row md:justify-between md:items-start gap-10  ">
         
-        <div>
+        <div className='flex flex-row justify-between'>
         {/* Brand / Newsletter */}
         <div className="md:w-1/4 pt-20">
           <h2 className="text-2xl text-[38px] font-normal font-adaminaaa text-black  mb-4">Hekto</h2>
@@ -29,6 +29,7 @@ const Footer = () => {
           </div>
         </div>
 
+<div className='flex flex-row items-center justify-around'>
         {/* Categories */}
         <div className="md:w-1/4 pt-20">
           <h3 className=" text-[22px] font-normal font-adaminaaa text-black mb-8">Categories</h3>
@@ -64,6 +65,7 @@ const Footer = () => {
             <li>Visual Composer Elements</li>
             <li>WooCommerce Pages</li>
           </ul>
+        </div>
         </div>
       </div>
       </div>
