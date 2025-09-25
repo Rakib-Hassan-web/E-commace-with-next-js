@@ -6,7 +6,7 @@ const Footer = () => {
     <>
     
 
-    <footer className="bg-[#EEEFFB] ">
+    <footer className="bg-[#EEEFFB] pb-[100px] ">
       <div className="container mx-auto px-4 py-12 flex flex-col md:flex-row md:justify-between md:items-start  gap-10  ">
         
         {/* Brand / Newsletter */}
