@@ -43,7 +43,7 @@ const Footer = () => {
         {/* Customer Care */}
         <div className="md:w-1/4 pt-20 pl-20">
           <h3 className="text-[22px] font-normal  font-adaminaaa text-black mb-8">Customer Care</h3>
-          <ul className="space-y-2 text-gray-600">
+          <ul className="space-y-2 font-normal text-base text-[#8A8FB9] font-lato">
             <li>My Account</li>
             <li>Discount</li>
             <li>Returns</li>
