@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { FiMail, FiUser, FiLock } from "react-icons/fi";
 import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
+import Link from "next/link";
 
 const page = () => {
   const [showPassword, setShowPassword] = useState(false);
@@ -108,9 +109,9 @@ const page = () => {
           {/* Login Link */}
           <p className="text-center text-sm text-gray-600">
             Already have an account?{" "}
-            <a href="/login" className="font-semibold text-yellow-500 hover:underline">
+            <Link href="/Login" className="font-semibold text-yellow-500 hover:underline">
               Login
-            </a>
+            </Link>
           </p>
         </form>
       </div>

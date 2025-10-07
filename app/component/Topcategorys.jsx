@@ -54,7 +54,7 @@ return (
 
                     {/* Hover button */}
                     <b
-                    utton
+utton
                         className='absolute bottom-4 left-1/2 -translate-x-1/2 cursor-pointer font-lato font-medium  px-4 py-2 bg-green-500 text-white rounded-md opacity-0 group-hover:opacity-100 transition duration-300'>
                         View Shop
                     </b>
