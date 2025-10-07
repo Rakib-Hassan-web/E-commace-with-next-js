@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { FiMail, FiLock } from "react-icons/fi";
 import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
+import Link from "next/link";
 
 const page = () => {
   const [showPassword, setShowPassword] = useState(false);
@@ -10,7 +11,7 @@ const page = () => {
     <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#FBEBB5] to-[#F5D491]">
       <div className="bg-white p-10 rounded-2xl shadow-2xl w-full max-w-md">
         <h2 className="text-3xl font-bold text-center mb-6 text-gray-800">
-          Welcome Back 👋
+         Login Here
         </h2>
 
         <form className="space-y-5">
@@ -77,9 +78,9 @@ const page = () => {
           {/* Signup Text */}
           <p className="text-center text-sm text-gray-600">
             Don’t have an account?{" "}
-            <a href="#" className="font-semibold text-yellow-500 hover:underline">
+            <Link href="#" className="font-semibold text-yellow-500 hover:underline">
               Sign up
-            </a>
+            </Link>
           </p>
         </form>
       </div>

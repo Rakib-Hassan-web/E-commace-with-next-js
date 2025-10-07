@@ -11,7 +11,7 @@ const page = () => {
     <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#FBEBB5] to-[#F5D491]">
       <div className="bg-white p-10 rounded-2xl shadow-2xl w-full max-w-md">
         <h2 className="text-3xl font-bold text-center mb-6 text-gray-800">
-          Create Account ✨
+          Create Account 
         </h2>
 
         <form className="space-y-5">
