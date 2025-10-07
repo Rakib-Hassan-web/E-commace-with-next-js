@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { FiMail, FiUser, FiLock } from "react-icons/fi";
 import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
 
-const RegisterPage = () => {
+const page = () => {
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirm, setShowConfirm] = useState(false);
 
