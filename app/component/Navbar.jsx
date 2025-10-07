@@ -18,7 +18,7 @@ const Navbar = () => {
             priority           
           />
         </Link>
-<h2>hiuh</h2>
+
         {/* -----  Items  ----- */}
         <ul className="flex gap-8 ">
           <li><Link href="/"  className="text-[#0D0E43] font-lato text-base font-semibold hover:text-[#FB2E86] duration-300">Home</Link></li>
@@ -26,7 +26,7 @@ const Navbar = () => {
           <li><Link href="/contact" className="text-[#0D0E43] font-lato text-base font-semibold hover:text-[#FB2E86] duration-300">Blog</Link></li>
           <li><Link href="/contact" className="text-[#0D0E43] font-lato text-base font-semibold hover:text-[#FB2E86] duration-300">Shop</Link></li>
           <li><Link href="/contact" className="text-[#0D0E43] font-lato text-base font-semibold hover:text-[#FB2E86] duration-300">Contact</Link></li>
-          <li><Link href="/Login" className="text-[#0D0E43] font-lato text-base font-semibold hover:text-[#FB2E86] duration-300">Login</Link></li>
+          <li><Link href="/Loginpage" className="text-[#0D0E43] font-lato text-base font-semibold hover:text-[#FB2E86] duration-300">Login</Link></li>
         </ul>
 
 

@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 import { FaLock, FaUser } from 'react-icons/fa'
 
-const Loginpage = () => {
+const page = () => {
   return (
     <>
     
@@ -58,4 +58,4 @@ const Loginpage = () => {
   )
 }
 
-export default Loginpage
+export default page
