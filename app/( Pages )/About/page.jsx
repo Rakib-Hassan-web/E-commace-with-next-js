@@ -3,12 +3,12 @@ import React from "react";
 import Image from "next/image";
 import { FaTruck, FaMoneyCheckAlt, FaHeadset } from "react-icons/fa";
 import { MdHighQuality } from "react-icons/md";
-// import aboutImg from ""; // নিজের ইমেজ রাখো public ফোল্ডারে
+
 
 const AboutPage = () => {
 return (
 <main className="bg-white text-gray-800 mt-34">
-  {/* ---------- Hero / Intro Section ---------- */}
+  {/* ---------- Hero Section ---------- */}
   <div className="container   flex  md:flex-row items-center   justify-center gap-8">
     {/* Left Image */}
     <div className="">
@@ -32,56 +32,97 @@ return (
     </div>
   </div>
 
-  {/* ---------- Our Features Section ---------- */}
-  <section className="py-20 bg-gray-50">
-    <div className="container mx-auto px-6 text-center">
-      <h3 className="text-3xl font-semibold mb-12">Our Features</h3>
+ <section id='prodects' className='mt-[135px]   '>
+        <div className="container">
+            <div>
+                <h1 className=' font-aby font-normal text-[42px] text-[#1A0B5B] text-center'>Our Features</h1>
+            </div>
 
-      {/* Flex-based feature layout */}
-      <div className="flex flex-wrap justify-center gap-6">
-        {/* Feature 1 */}
-        <div className="bg-white w-[250px] p-8 rounded-xl shadow hover:shadow-lg transition flex flex-col items-center">
-          <FaTruck className="text-4xl text-orange-500 mb-4" />
-          <h4 className="text-lg font-semibold mb-2">Free Delivery</h4>
-          <p className="text-gray-600 text-sm text-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Massa purus gravida.
-          </p>
-        </div>
+            {/* ------------all carts------- */}
+            <div className='flex items-center justify-around mt-15'>
 
-        {/* Feature 2 */}
-        <div
-          className="bg-white w-[250px] p-8 rounded-xl shadow hover:shadow-lg transition flex flex-col items-center border-b-4 border-yellow-400">
-          <FaMoneyCheckAlt className="text-4xl text-yellow-400 mb-4" />
-          <h4 className="text-lg font-semibold mb-2">100% Cash Back</h4>
-          <p className="text-gray-600 text-sm text-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Massa purus gravida.
-          </p>
-        </div>
+                {/* ----------single cart---------- */}
+                <div className='w-[290px] pb-20 shadow-[0px_4px_30px_0px_rgba(31,_38,_135,_0.15)] rounded-md  '>
+                  
+                  <div className='flex justify-center mt-14'>
+                        <Image  
+                        src={'/free-delivery 1.png'}
+                        width={65}
+                        height={43}
+                        alt='logo'
+                        
+                          />
+                        </div>
+                    <h2 className='text-[22px] font-medium text-[#151875] text-center  font-adaminaaa mt-[27px] '>24/7 Support</h2>
+                   
+                    <p className='text-[16px] font-bold text-[#1a0b5b4e]  text-center  font-lato  px-6 mt-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida.</p>
+                
+                </div>
 
-        {/* Feature 3 */}
-        <div className="bg-white w-[250px] p-8 rounded-xl shadow hover:shadow-lg transition flex flex-col items-center">
-          <MdHighQuality className="text-4xl text-orange-400 mb-4" />
-          <h4 className="text-lg font-semibold mb-2">Quality Product</h4>
-          <p className="text-gray-600 text-sm text-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Massa purus gravida.
-          </p>
-        </div>
+                   {/* ----------single cart---------- */}
+                <div className='w-[290px] pb-20 shadow-[0px_4px_30px_0px_rgba(31,_38,_135,_0.15)] rounded-md  '>
+                  
+                  <div className='flex justify-center mt-14'>
+                        <Image  
+                        src={'/cashback 1.png'}
+                        width={65}
+                        height={43}
+                        alt='logo' 
+                        />
+                        </div>
 
-        {/* Feature 4 */}
-        <div className="bg-white w-[250px] p-8 rounded-xl shadow hover:shadow-lg transition flex flex-col items-center">
-          <FaHeadset className="text-4xl text-blue-400 mb-4" />
-          <h4 className="text-lg font-semibold mb-2">24/7 Support</h4>
-          <p className="text-gray-600 text-sm text-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Massa purus gravida.
-          </p>
+                    <h2 className='text-[22px] font-medium text-[#151875] text-center  font-adaminaaa mt-[27px] '>24/7 Support</h2>
+                   
+                    <p className='text-[16px] font-bold text-[#1a0b5b4e]  text-center  font-lato  px-6 mt-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida.</p>
+                 
+                </div>
+
+                  {/* ----------single cart---------- */}
+                <div className='w-[290px] pb-20 shadow-[0px_4px_30px_0px_rgba(31,_38,_135,_0.15)] rounded-md  '>
+                  
+                  <div className='flex justify-center mt-14'>
+                        <Image  
+                        src={'/premium-quality 1.png'}
+                        width={65}
+                        height={43}
+                        alt='logo'
+                        
+                        
+                        />
+                        </div>
+
+
+                    <h2 className='text-[22px] font-medium text-[#151875] text-center  font-adaminaaa mt-[27px] '>24/7 Support</h2>
+                   
+                    <p className='text-[16px] font-bold text-[#1a0b5b4e]  text-center  font-lato  px-6 mt-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida.</p>
+                 
+                </div>
+
+
+
+
+                   {/* ----------single cart---------- */}
+                <div className='w-[290px] pb-20 shadow-[0px_4px_30px_0px_rgba(31,_38,_135,_0.15)] rounded-md  '>
+                  
+                  <div className='flex justify-center mt-14'>
+                        <Image  
+                        src={'/24-hours-support 1.png'}
+                        width={65}
+                        height={43}
+                        alt='logo'
+                                        
+                        />
+                        </div>
+
+
+                    <h2 className='text-[22px] font-medium text-[#151875] text-center  font-adaminaaa mt-[27px] '>24/7 Support</h2>
+                   
+                    <p className='text-[16px] font-bold text-[#1a0b5b4e]  text-center  font-lato  px-6 mt-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida.</p>
+                 
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
   {/* ---------- Client Testimonial Section ---------- */}
   <section className="py-20 bg-[#F9FAFB] text-center">
