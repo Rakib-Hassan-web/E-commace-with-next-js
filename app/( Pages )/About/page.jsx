@@ -141,7 +141,7 @@ return (
         <p className=" text-base mb-4 max-w-md    text-[#8a8fb9ea]   font-medium font-lato ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           Nulla ultrices quam vel elit tincidunt aliquet ac id eros.
-          Nam vitae enim metus, sed dapibus sapien ac nunc. complte
+          Nam vitae enim metus, sed dapibus sapien ac nunc. 
         </p>
 
         {/* Dots */}
