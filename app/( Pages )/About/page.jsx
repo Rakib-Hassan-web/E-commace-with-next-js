@@ -137,7 +137,7 @@ return (
           <Image src="/user3.png" alt="Client 3" width={80} height={80} className="rounded-full bg-amber-100" />
         </div>
 
-        <h4 className="font-semibold text-gray-800 mb-2">Selina Gomez</h4>
+        <h4 className="font-semibold text-[#151875] text-[20px] font-lato mb-2">Selina Gomez</h4>
         <p className="text-gray-600 text-sm mb-4 max-w-md">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           Nulla ultrices quam vel elit tincidunt aliquet ac id eros.
