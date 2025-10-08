@@ -1,45 +1,141 @@
 'use client';
 import React from "react";
 import Image from "next/image";
-// import aboutImg from "@/public/about.jpg"; // নিজের image রাখো /public ফোল্ডারে
+import { FaTruck, FaMoneyCheckAlt, FaHeadset } from "react-icons/fa";
+import { MdHighQuality } from "react-icons/md";
+// import aboutImg from ""; // নিজের ইমেজ রাখো public ফোল্ডারে
 
-const page = () => {
+const AboutPage = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#FBEBB5] to-[#F5D491] py-16 px-5">
-      <div className="bg-white rounded-2xl shadow-2xl max-w-5xl w-full flex flex-col md:flex-row overflow-hidden">
-        
+    <main className="bg-white text-gray-800">
+      {/* ---------- Hero / Intro Section ---------- */}
+      <section className="container mx-auto px-6 py-16 flex flex-col md:flex-row items-center gap-10">
         {/* Left Image */}
-        {/* <div className="md:w-1/2 w-full">
+        <div className="md:w-1/2 w-full">
           <Image
-            src={aboutImg}
-            alt="About Us"
-            className="w-full h-full object-cover"
+            src=
+            alt="About Image"
+            className="rounded-lg shadow-lg w-full h-auto object-cover"
             priority
-          /> */}
+          />
+        </div>
 
-
-        {/* Right Content */}
-        <div className="md:w-1/2 w-full p-10 flex flex-col justify-center">
-          <h2 className="text-4xl font-bold text-gray-800 mb-4">About Us</h2>
-          <p className="text-gray-600 mb-6 leading-relaxed">
-            Welcome to <span className="font-semibold text-yellow-500">Our Store</span> — 
-            where passion meets creativity. We believe in delivering high-quality 
-            products that make your everyday life better, brighter, and more beautiful.
+        {/* Right Text */}
+        <div className="md:w-1/2 w-full">
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            Know About Our Ecommerce Business, History
+          </h2>
+          <p className="text-gray-600 leading-relaxed mb-6">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Mattis neque ultrices mattis aliquam, malesuada diam est. 
+            Mauris metus mattis varius et et egestas quis ipsum. 
+            Accumsan faucibus vitae lobortis quis bibendum quam.
           </p>
-
-          <p className="text-gray-600 mb-6 leading-relaxed">
-            Our journey started with a simple idea: to bring people closer to 
-            unique designs that inspire happiness and style. Every product we offer 
-            is chosen with care, made with love, and designed to make you feel special.
-          </p>
-
-          <button className="bg-yellow-400 text-gray-900 font-semibold py-2 px-6 rounded-xl hover:bg-yellow-500 transition w-fit">
-            Learn More
+          <button className="bg-pink-600 text-white px-6 py-2 rounded-md hover:bg-pink-700 transition">
+            Contact Us
           </button>
         </div>
-      </div>
-    </section>
+      </section>
+
+      {/* ---------- Our Features Section ---------- */}
+      <section className="py-20 bg-gray-50">
+        <div className="container mx-auto px-6 text-center">
+          <h3 className="text-3xl font-semibold mb-12">Our Features</h3>
+
+          {/* Flex-based feature layout */}
+          <div className="flex flex-wrap justify-center gap-6">
+            {/* Feature 1 */}
+            <div className="bg-white w-[250px] p-8 rounded-xl shadow hover:shadow-lg transition flex flex-col items-center">
+              <FaTruck className="text-4xl text-orange-500 mb-4" />
+              <h4 className="text-lg font-semibold mb-2">Free Delivery</h4>
+              <p className="text-gray-600 text-sm text-center">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Massa purus gravida.
+              </p>
+            </div>
+
+            {/* Feature 2 */}
+            <div className="bg-white w-[250px] p-8 rounded-xl shadow hover:shadow-lg transition flex flex-col items-center border-b-4 border-yellow-400">
+              <FaMoneyCheckAlt className="text-4xl text-yellow-400 mb-4" />
+              <h4 className="text-lg font-semibold mb-2">100% Cash Back</h4>
+              <p className="text-gray-600 text-sm text-center">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Massa purus gravida.
+              </p>
+            </div>
+
+            {/* Feature 3 */}
+            <div className="bg-white w-[250px] p-8 rounded-xl shadow hover:shadow-lg transition flex flex-col items-center">
+              <MdHighQuality className="text-4xl text-orange-400 mb-4" />
+              <h4 className="text-lg font-semibold mb-2">Quality Product</h4>
+              <p className="text-gray-600 text-sm text-center">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Massa purus gravida.
+              </p>
+            </div>
+
+            {/* Feature 4 */}
+            <div className="bg-white w-[250px] p-8 rounded-xl shadow hover:shadow-lg transition flex flex-col items-center">
+              <FaHeadset className="text-4xl text-blue-400 mb-4" />
+              <h4 className="text-lg font-semibold mb-2">24/7 Support</h4>
+              <p className="text-gray-600 text-sm text-center">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Massa purus gravida.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- Client Testimonial Section ---------- */}
+      <section className="py-20 bg-[#F9FAFB] text-center">
+        <div className="container mx-auto px-6">
+          <h3 className="text-3xl font-semibold mb-12">Our Client Say!</h3>
+
+          <div className="max-w-2xl mx-auto flex flex-col items-center">
+            {/* Client Images */}
+            <div className="flex justify-center gap-4 mb-6">
+              <Image
+                src="/client1.jpg"
+                alt="Client 1"
+                width={50}
+                height={50}
+                className="rounded-full"
+              />
+              <Image
+                src="/client2.jpg"
+                alt="Client 2"
+                width={50}
+                height={50}
+                className="rounded-full"
+              />
+              <Image
+                src="/client3.jpg"
+                alt="Client 3"
+                width={50}
+                height={50}
+                className="rounded-full"
+              />
+            </div>
+
+            <h4 className="font-semibold text-gray-800 mb-2">Selina Gomez</h4>
+            <p className="text-gray-600 text-sm mb-4 max-w-md">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Nulla ultrices quam vel elit tincidunt aliquet ac id eros. 
+              Nam vitae enim metus, sed dapibus sapien ac nunc.
+            </p>
+
+            {/* Dots */}
+            <div className="flex justify-center gap-2">
+              <span className="w-3 h-3 bg-pink-600 rounded-full"></span>
+              <span className="w-3 h-3 bg-gray-300 rounded-full"></span>
+              <span className="w-3 h-3 bg-gray-300 rounded-full"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   );
 };
 
-export default page;
+export default AboutPage;
