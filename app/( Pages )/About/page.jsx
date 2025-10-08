@@ -7,7 +7,7 @@ import { MdHighQuality } from "react-icons/md";
 
 const AboutPage = () => {
 return (
-<main className="bg-white text-gray-800 mt-40">
+<main className="bg-white text-gray-800 mt-34">
   {/* ---------- Hero / Intro Section ---------- */}
   <div className="container   flex  md:flex-row items-center   justify-center gap-8">
     {/* Left Image */}
@@ -20,13 +20,13 @@ return (
       <h2 className="text-[36px] font-normal text-[#151875] font-adaminaaa mb-4">
         Know About Our Ecommerce Business, History
       </h2>
-      <p className="text-gray-600 leading-relaxed mb-6">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Mattis neque ultrices mattis aliquam, malesuada diam est.
-        Mauris metus mattis varius et et egestas quis ipsum.
-        Accumsan faucibus vitae lobortis quis bibendum quam.
+      <p className="text-[#8a8fb9a9]  text-base font-medium font-lato leading-relaxed mb-10 ">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis neque ultrices mattis aliquam, malesuada diam
+        est. Malesuada sem tristique amet erat vitae eget dolor lobortis. Accumsan faucibus vitae lobortis quis bibendum
+        quam.
       </p>
-      <button className="bg-pink-600 text-white px-6 py-2 rounded-md hover:bg-pink-700 transition">
+      <button
+        className="bg-pink-500 text-white font-lato font-medium text-[18px] px-6 py-3  cursor-pointer rounded-md hover:bg-pink-600 transition">
         Contact Us
       </button>
     </div>
