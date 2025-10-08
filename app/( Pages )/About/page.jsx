@@ -125,7 +125,7 @@ return (
     </section>
 
   {/* ---------- Client Testimonial Section ---------- */}
-  <section className="py-20 bg-[#FBFBFF] text-center">
+  <section className="py-20 bg-[#FBFBFF] text-center mt-30 mb-40">
     <div className="container mx-auto px-6">
       <h3 className="text-[42px]  font-normal mb-12 font-adaminaaa ">Our Client Say!</h3>
 
