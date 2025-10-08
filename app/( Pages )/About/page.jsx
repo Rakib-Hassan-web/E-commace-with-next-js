@@ -138,7 +138,7 @@ return (
         </div>
 
         <h4 className="font-semibold text-[#151875] text-[20px] font-lato mb-2">Selina Gomez</h4>
-        <p className="text-gray-600 text-sm mb-4 max-w-md">
+        <p className=" text- mb-4 max-w-md    text-[#8a8fb9da]   font-medium font-lato ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           Nulla ultrices quam vel elit tincidunt aliquet ac id eros.
           Nam vitae enim metus, sed dapibus sapien ac nunc.
