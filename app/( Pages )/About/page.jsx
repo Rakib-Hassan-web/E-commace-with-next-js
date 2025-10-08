@@ -132,7 +132,7 @@ return (
       <div className="max-w-2xl mx-auto flex flex-col items-center">
         {/* Client Images */}
         <div className="flex justify-center gap-4 mb-6">
-          <Image src="/client1.jpg" alt="Client 1" width={100} height={100} className="rounded-full bg-amber-100 "  ></Image>
+          <Image src="/client1.jpg" alt="Client 1" width={100} height={100} className="rounded-full bg-amber-100 "  />
           <Image src="/client2.jpg" alt="Client 2" width={100} height={100} className="rounded-full bg-amber-100" />
           <Image src="/client3.jpg" alt="Client 3" width={100} height={100} className="rounded-full bg-amber-100" />
         </div>
