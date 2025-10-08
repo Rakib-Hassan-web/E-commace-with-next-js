@@ -31,7 +31,7 @@ return (
       </button>
     </div>
   </div>
-
+{/* -------middle prt------ */}
  <section id='prodects' className='mt-[135px]   '>
         <div className="container">
             <div>
@@ -125,9 +125,9 @@ return (
     </section>
 
   {/* ---------- Client Testimonial Section ---------- */}
-  <section className="py-20 bg-[#F9FAFB] text-center">
+  <section className="py-20 bg-[#FBFBFF] text-center">
     <div className="container mx-auto px-6">
-      <h3 className="text-3xl font-semibold mb-12">Our Client Say!</h3>
+      <h3 className="text-[42px]  font-normal mb-12 font-adaminaaa ">Our Client Say!</h3>
 
       <div className="max-w-2xl mx-auto flex flex-col items-center">
         {/* Client Images */}
