@@ -107,6 +107,7 @@ return (
                         View Shop
                     </button>
                 </div>
+                <h2>about</h2>
 
 
 
