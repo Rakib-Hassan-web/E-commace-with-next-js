@@ -9,15 +9,15 @@ const AboutPage = () => {
 return (
 <main className="bg-white text-gray-800 mt-40">
   {/* ---------- Hero / Intro Section ---------- */}
-  <div className="container   flex  md:flex-row items-center   justify-center">
+  <div className="container   flex  md:flex-row items-center   justify-center gap-8">
     {/* Left Image */}
     <div className="">
       <Image src='/Group 73.png' width={570} height={490} alt="Image"></Image>
     </div>
 
     {/* Right Text */}
-    <div className=" ">
-      <h2 className="text-3xl font-bold text-gray-900 mb-4">
+    <div className=" w-[550px] ">
+      <h2 className="text-[36px] font-normal text-[#151875] font-adaminaaa mb-4">
         Know About Our Ecommerce Business, History
       </h2>
       <p className="text-gray-600 leading-relaxed mb-6">
