@@ -7,16 +7,16 @@ import { MdHighQuality } from "react-icons/md";
 
 const AboutPage = () => {
 return (
-<main className="bg-white text-gray-800">
+<main className="bg-white text-gray-800 mt-40">
   {/* ---------- Hero / Intro Section ---------- */}
-  <section className="container   flex  md:flex-row items-center  justify-center">
+  <div className="container   flex  md:flex-row items-center   justify-center">
     {/* Left Image */}
-    <div className="md:w-1/2 w-full ">
+    <div className="">
       <Image src='/Group 73.png' width={570} height={490} alt="Image"></Image>
     </div>
 
     {/* Right Text */}
-    <div className="md:w-1/2 w-full">
+    <div className=" ">
       <h2 className="text-3xl font-bold text-gray-900 mb-4">
         Know About Our Ecommerce Business, History
       </h2>
@@ -30,7 +30,7 @@ return (
         Contact Us
       </button>
     </div>
-  </section>
+  </div>
 
   {/* ---------- Our Features Section ---------- */}
   <section className="py-20 bg-gray-50">
