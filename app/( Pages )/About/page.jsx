@@ -138,10 +138,10 @@ return (
         </div>
 
         <h4 className="font-semibold text-[#151875] text-[20px] font-lato mb-2">Selina Gomez</h4>
-        <p className=" text-base mb-4 max-w-md    text-[#8a8fb9da]   font-medium font-lato ">
+        <p className=" text-base mb-4 max-w-md    text-[#8a8fb9ea]   font-medium font-lato ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           Nulla ultrices quam vel elit tincidunt aliquet ac id eros.
-          Nam vitae enim metus, sed dapibus sapien ac nunc.
+          Nam vitae enim metus, sed dapibus sapien ac nunc. complte
         </p>
 
         {/* Dots */}
