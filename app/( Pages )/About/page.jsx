@@ -132,9 +132,9 @@ return (
       <div className="max-w-2xl mx-auto flex flex-col items-center">
         {/* Client Images */}
         <div className="flex justify-center gap-4 mb-6">
-          <Image src="/client1.jpg" alt="Client 1" width={60} height={60} className="rounded-full bg-amber-100 "  />
-          <Image src="/client2.jpg" alt="Client 2" width={60} height={60} className="rounded-full bg-amber-100" />
-          <Image src="/client3.jpg" alt="Client 3" width={60} height={60} className="rounded-full bg-amber-100" />
+          <Image src="/user1.png" alt="Client 1" width={80} height={80} className="rounded-full bg-amber-100 "  />
+    
+         
         </div>
 
         <h4 className="font-semibold text-gray-800 mb-2">Selina Gomez</h4>
