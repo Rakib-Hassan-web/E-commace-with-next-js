@@ -30,7 +30,7 @@ const page = () => {
           <h2 className="text-2xl  font-adaminaaa text-blumain text-[36px] font-normal  mb-4 ">Contact Way</h2>
 
           <div className="flex items-start gap-3 text-gray-700">
-            <FaPhoneAlt className="text-pink-600 mt-1" />
+            <FaPhoneAlt className="text-pink-600 mt-1 text-2xl" />
             <div>
               <p className="text-[16px] font-lato font-medium    text-[#8a8fb9b9]"> Tel: 877-67-88-99</p>
               <p className="text-[16px] font-lato font-medium    text-[#8a8fb9b9]">E-Mail: shop@store.com</p>
@@ -38,7 +38,7 @@ const page = () => {
           </div>
 
           <div className="flex items-start gap-3 text-gray-700">
-            <MdForum className="text-pink-600 mt-1" />
+            <MdForum className="text-pink-600 mt-1 text-2xl" />
             <p className="text-[16px] font-lato font-medium    text-[#8a8fb9b9]">Support Forum <br /> For over 24hr</p>
           </div>
 
