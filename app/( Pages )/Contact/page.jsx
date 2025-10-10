@@ -43,7 +43,7 @@ const page = () => {
           </div>
 
           <div className="flex items-start gap-3 text-gray-700">
-            <FaMapMarkerAlt className="text-orange-400 mt-1" />
+            <FaMapMarkerAlt className="text-orange-400 mt-1 text-2xl" />
             <p className="text-[16px] font-lato font-medium    text-[#8a8fb9b9]">
               20 Margaret st, London <br />
               Great Britain, 3NM98-LK
@@ -51,7 +51,7 @@ const page = () => {
           </div>
 
           <div className="flex items-start gap-3 text-gray-700">
-            <FaShippingFast className="text-green-500 mt-1" />
+            <FaShippingFast className="text-green-500 mt-1 text-2xl" />
             <p className="text-[16px] font-lato font-medium    text-[#8a8fb9b9]">Free standard shipping on all orders.</p>
           </div>
         </div>
