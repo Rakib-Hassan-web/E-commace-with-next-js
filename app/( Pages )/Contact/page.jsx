@@ -9,7 +9,7 @@ const page = () => {
   return (
     <main className="bg-white text-gray-800 mt-[143px]">
       {/* ---------- Top Info Section ---------- */}
-      <section className="container mx-auto px-6 py-16 flex flex-col md:flex-row justify-between gap-10">
+      <section className="container mx-auto px-6 py-16 flex flex-col md:flex-row  justify-around gap-10">
         {/* Left Side: Info About Us */}
         <div className="">
           <h2 className=" font-normal font-adaminaaa text-[36px] mb-4 text-blumain">Information About Us</h2>
@@ -27,19 +27,19 @@ const page = () => {
 
         {/* Right Side: Contact Way */}
         <div className=" flex flex-col gap-3">
-          <h2 className="text-2xl font-semibold text-gray-900 mb-4">Contact Way</h2>
+          <h2 className="text-2xl  font-adaminaaa text-blumain text-[36px] font-normal  mb-4 ">Contact Way</h2>
 
           <div className="flex items-start gap-3 text-gray-700">
             <FaPhoneAlt className="text-pink-600 mt-1" />
             <div>
-              <p>Tel: 877-67-88-99</p>
-              <p>E-Mail: shop@store.com</p>
+              <p className="text-[16px] font-lato font-medium    text-[#8a8fb9b9]"> Tel: 877-67-88-99</p>
+              <p className="text-[16px] font-lato font-medium    text-[#8a8fb9b9]">E-Mail: shop@store.com</p>
             </div>
           </div>
 
           <div className="flex items-start gap-3 text-gray-700">
             <MdForum className="text-pink-600 mt-1" />
-            <p>Support Forum <br /> For over 24hr</p>
+            <p className="text-[16px] font-lato font-medium    text-[#8a8fb9b9]">Support Forum <br /> For over 24hr</p>
           </div>
 
           <div className="flex items-start gap-3 text-gray-700">
