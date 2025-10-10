@@ -1,0 +1,118 @@
+'use client';
+import React from "react";
+import Image from "next/image";
+import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaShippingFast } from "react-icons/fa";
+import { MdForum } from "react-icons/md";
+import contactImg from "@/public/contact-illustration.jpg"; // নিচে নোট দেখো
+
+const page = () => {
+  return (
+    <main className="bg-white text-gray-800">
+      {/* ---------- Top Info Section ---------- */}
+      <section className="container mx-auto px-6 py-16 flex flex-col md:flex-row justify-between gap-10">
+        {/* Left Side: Info About Us */}
+        <div className="md:w-1/2">
+          <h2 className="text-2xl font-semibold text-gray-900 mb-4">Information About Us</h2>
+          <p className="text-gray-600 mb-6 leading-relaxed">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis neque ultrices mattis aliquam, malesuada diam est. 
+            Malesuada sem tristique amet erat vitae eget dolor lobortis. Accumsan faucibus vitae lobortis quis bibendum quam.
+          </p>
+
+          {/* Dots */}
+          <div className="flex gap-3">
+            <span className="w-4 h-4 rounded-full bg-pink-500"></span>
+            <span className="w-4 h-4 rounded-full bg-purple-500"></span>
+            <span className="w-4 h-4 rounded-full bg-blue-500"></span>
+          </div>
+        </div>
+
+        {/* Right Side: Contact Way */}
+        <div className="md:w-1/2 flex flex-col gap-3">
+          <h2 className="text-2xl font-semibold text-gray-900 mb-4">Contact Way</h2>
+
+          <div className="flex items-start gap-3 text-gray-700">
+            <FaPhoneAlt className="text-pink-600 mt-1" />
+            <div>
+              <p>Tel: 877-67-88-99</p>
+              <p>E-Mail: shop@store.com</p>
+            </div>
+          </div>
+
+          <div className="flex items-start gap-3 text-gray-700">
+            <MdForum className="text-pink-600 mt-1" />
+            <p>Support Forum <br /> For over 24hr</p>
+          </div>
+
+          <div className="flex items-start gap-3 text-gray-700">
+            <FaMapMarkerAlt className="text-orange-400 mt-1" />
+            <p>
+              20 Margaret st, London <br />
+              Great Britain, 3NM98-LK
+            </p>
+          </div>
+
+          <div className="flex items-start gap-3 text-gray-700">
+            <FaShippingFast className="text-green-500 mt-1" />
+            <p>Free standard shipping on all orders.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- Get In Touch Section ---------- */}
+      <section className="container mx-auto px-6 py-20 flex flex-col md:flex-row items-center justify-between gap-10">
+        {/* Left Side: Form */}
+        <div className="md:w-1/2 w-full">
+          <h2 className="text-3xl font-semibold text-gray-900 mb-3">Get In Touch</h2>
+          <p className="text-gray-600 mb-8 leading-relaxed">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis neque ultrices tristique amet erat vitae eget dolor.
+          </p>
+
+          <form className="flex flex-col gap-4">
+            <div className="flex flex-col md:flex-row gap-4">
+              <input
+                type="text"
+                placeholder="Your Name*"
+                className="border border-gray-300 p-3 rounded-md w-full focus:outline-pink-600"
+              />
+              <input
+                type="email"
+                placeholder="Your E-mail*"
+                className="border border-gray-300 p-3 rounded-md w-full focus:outline-pink-600"
+              />
+            </div>
+
+            <input
+              type="text"
+              placeholder="Subject*"
+              className="border border-gray-300 p-3 rounded-md w-full focus:outline-pink-600"
+            />
+            <textarea
+              placeholder="Type Your Message*"
+              rows="5"
+              className="border border-gray-300 p-3 rounded-md w-full focus:outline-pink-600 resize-none"
+            ></textarea>
+
+            <button
+              type="submit"
+              className="bg-pink-600 text-white px-8 py-2 rounded-md w-fit hover:bg-pink-700 transition"
+            >
+              Send
+            </button>
+          </form>
+        </div>
+
+        {/* Right Side: Illustration */}
+        <div className="md:w-1/2 w-full flex justify-center">
+          <Image
+            src={contactImg}
+            alt="Contact Illustration"
+            className="w-[90%] h-auto object-contain"
+            priority
+          />
+        </div>
+      </section>
+    </main>
+  );
+};
+
+export default page;
