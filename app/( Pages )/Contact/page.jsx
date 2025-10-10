@@ -58,10 +58,10 @@ const page = () => {
       </section>
 
       {/* ---------- Get In Touch Section ---------- */}
-      <section className="container mx-auto px-6 py-20 flex flex-col md:flex-row items-center justify-between gap-10">
+      <section className="container mx-auto px-6 py-20 flex flex-col md:flex-row items-center justify-center gap-10">
         {/* Left Side: Form */}
-        <div className="md:w-1/2 w-full">
-          <h2 className="text-3xl font-semibold text-gray-900 mb-3">Get In Touch</h2>
+        <div className="">
+          <h2 className="text-3xl  font-normal font-adaminaaa text-[36px] mb-4 text-blumain">Get In Touch</h2>
           <p className="text-gray-600 mb-8 leading-relaxed">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis neque ultrices tristique amet erat vitae eget dolor.
           </p>
