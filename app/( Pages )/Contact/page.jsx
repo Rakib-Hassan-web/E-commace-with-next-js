@@ -12,10 +12,9 @@ const page = () => {
       <section className="container mx-auto px-6 py-16 flex flex-col md:flex-row justify-between gap-10">
         {/* Left Side: Info About Us */}
         <div className="">
-          <h2 className="text-2xl font-semibold text-gray-900 mb-4">Information About Us</h2>
-          <p className="text-gray-600 mb-6 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis neque ultrices mattis aliquam, malesuada diam est. 
-            Malesuada sem tristique amet erat vitae eget dolor lobortis. Accumsan faucibus vitae lobortis quis bibendum quam.
+          <h2 className=" font-normal font-adaminaaa text-[36px] mb-4 text-blumain">Information About Us</h2>
+          <p className="text-[16px] font-lato font-medium    text-[#8a8fb9b9] mb-6 leading-relaxed w-[550px]"> 
+         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis neque ultrices mattis aliquam, malesuada diam est. Malesuada sem tristique amet erat vitae eget dolor lobortis. Accumsan faucibus vitae lobortis quis bibendum quam.
           </p>
 
           {/* Dots */}
