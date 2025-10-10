@@ -52,7 +52,7 @@ const page = () => {
 
           <div className="flex items-start gap-3 text-gray-700">
             <FaShippingFast className="text-green-500 mt-1" />
-            <p>Free standard shipping on all orders.</p>
+            <p className="text-[16px] font-lato font-medium    text-[#8a8fb9b9]">Free standard shipping on all orders.</p>
           </div>
         </div>
       </section>
