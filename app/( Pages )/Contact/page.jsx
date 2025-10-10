@@ -44,7 +44,7 @@ const page = () => {
 
           <div className="flex items-start gap-3 text-gray-700">
             <FaMapMarkerAlt className="text-orange-400 mt-1" />
-            <p>
+            <p className="text-[16px] font-lato font-medium    text-[#8a8fb9b9]">
               20 Margaret st, London <br />
               Great Britain, 3NM98-LK
             </p>
