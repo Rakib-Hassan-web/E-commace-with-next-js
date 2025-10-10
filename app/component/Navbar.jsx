@@ -29,6 +29,8 @@ const Navbar = () => {
           <li><Link href="/Login" className="text-[#0D0E43] font-lato text-base font-semibold hover:text-[#FB2E86] duration-300">Login</Link></li>
         </ul>
 
+        <head>contact</head>
+
 
 {/* -----search bar------- */}
 
