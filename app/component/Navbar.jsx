@@ -96,7 +96,7 @@ const Navbar = () => {
                 placeholder="Search..."
                 className="w-full py-2.5 px-3 text-base font-lato text-[#0D0E43] border-2 border-[#E7E6EF] outline-none border-r-0 rounded-l-md"
               />
-              <div className="w-[50px] bg-[#FB2E86] rounded-r-md flex items-center justify-center text-2xl text-white">
+              <div className="w-[50px] py-5 bg-[#FB2E86] rounded-r-md flex items-center justify-center text-2xl text-white">
                 <CiSearch />
               </div>
             </div>
