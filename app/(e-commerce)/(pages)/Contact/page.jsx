@@ -1,6 +1,8 @@
 'use client';
 import React from "react";
 import Image from "next/image";
+import Input from "@/utils/Input";
+import Button from "@/utils/Button";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaShippingFast } from "react-icons/fa";
 import { MdForum } from "react-icons/md";
 // import contactImg from "@/public/contact-illustration.jpg"; // নিচে নোট দেখো
@@ -68,22 +70,23 @@ const page = () => {
 
           <form className="flex flex-col gap-4">
             <div className="flex flex-col md:flex-row gap-4">
-              <input
-                type="text"
+              <Input
                 placeholder="Your Name*"
-                className="border border-gray-300 p-3 rounded-md w-full focus:outline-pink-600"
+                className="w-full"
+                inputClassName="rounded-md"
               />
-              <input
+              <Input
                 type="email"
                 placeholder="Your E-mail*"
-                className="border border-gray-300 p-3 rounded-md w-full focus:outline-pink-600"
+                className="w-full"
+                inputClassName="rounded-md"
               />
             </div>
 
-            <input
-              type="text"
+            <Input
               placeholder="Subject*"
-              className="border border-gray-300 p-3 rounded-md w-full focus:outline-pink-600"
+              className="w-full"
+              inputClassName="rounded-md"
             />
             <textarea
               placeholder="Type Your Message*"
@@ -91,12 +94,9 @@ const page = () => {
               className="border border-gray-300 p-3 rounded-md w-full focus:outline-pink-600 resize-none"
             ></textarea>
 
-            <button
-              type="submit"
-              className="bg-pink-600 text-white px-8 py-2 rounded-md w-fit hover:bg-pink-700 transition"
-            >
+            <Button type="submit" className="w-fit">
               Send
-            </button>
+            </Button>
           </form>
         </div>
 

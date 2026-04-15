@@ -1,6 +1,7 @@
 'use client';
 import React from "react";
 import Image from "next/image";
+import Button from "@/utils/Button";
 import { FaTruck, FaMoneyCheckAlt, FaHeadset } from "react-icons/fa";
 import { MdHighQuality } from "react-icons/md";
 
@@ -25,10 +26,9 @@ return (
         est. Malesuada sem tristique amet erat vitae eget dolor lobortis. Accumsan faucibus vitae lobortis quis bibendum
         quam.
       </p>
-      <button
-        className="bg-pink-500 text-white font-lato font-medium text-[18px] px-6 py-3  cursor-pointer rounded-md hover:bg-pink-600 transition">
+      <Button className="text-[18px] px-6 py-3">
         Contact Us
-      </button>
+      </Button>
     </div>
   </div>
 {/* -------middle prt------ */}

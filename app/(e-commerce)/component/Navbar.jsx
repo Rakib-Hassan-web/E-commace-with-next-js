@@ -1,10 +1,12 @@
-"use client";   // 👉 এটা প্রথম লাইনে থাকতে হবে
+"use client";   
 
 import Link from "next/link";
 import React, { useState } from "react";
 import Image from "next/image";
 import { CiSearch } from "react-icons/ci";
 import { FaBars, FaTimes } from "react-icons/fa";
+import Input from "@/utils/Input";
+import Button from "@/utils/Button";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -37,22 +39,22 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link href="/blog" passHref>
+            <Link href="/dashboard" passHref>
               <span className="text-[#0D0E43] font-lato text-base font-semibold hover:text-[#FB2E86] duration-300">Blog</span>
             </Link>
           </li>
           <li>
             <Link href="/about" passHref>
-              <span className="text-[#0D0E43] font-lato text-base font-semibold hover:text-[#FB2E86] duration-300">Shop</span>
+              <span className="text-[#0D0E43] font-lato text-base font-semibold hover:text-[#FB2E86] duration-300">About</span>
             </Link>
           </li>
           <li>
-            <Link href="/contact" passHref>
+            <Link href="/Contact" passHref>
               <span className="text-[#0D0E43] font-lato text-base font-semibold hover:text-[#FB2E86] duration-300">Contact</span>
             </Link>
           </li>
           <li>
-            <Link href="/login" passHref>
+            <Link href="/Login" passHref>
               <span className="text-[#0D0E43] font-lato text-base font-semibold hover:text-[#FB2E86] duration-300">Login</span>
             </Link>
           </li>
@@ -60,14 +62,14 @@ const Navbar = () => {
 
         {/* ----- Search Bar (Desktop) ----- */}
         <div className="hidden md:flex items-center ml-6">
-          <input
-            type="text"
+          <Input
             placeholder="Search..."
-            className="w-[250px] py-2.5 px-3 text-base font-lato text-[#0D0E43] border-2 border-[#E7E6EF] outline-none border-r-0 rounded-l-md"
+            className="w-[250px]"
+            inputClassName="rounded-l-md border-r-0"
           />
-          <div className="w-[50px] bg-[#FB2E86] rounded-r-md flex items-center justify-center text-2xl text-white">
+          <Button className="w-[50px] h-[50px] rounded-r-md p-0 text-2xl">
             <CiSearch />
-          </div>
+          </Button>
         </div>
 
         {/* ----- Hamburger Menu Button ----- */}
@@ -87,18 +89,18 @@ const Navbar = () => {
             <li><Link href="/blog" passHref><span className="text-[#0D0E43] font-lato text-base font-semibold hover:text-[#FB2E86] duration-300">Blog</span></Link></li>
             <li><Link href="/about" passHref><span className="text-[#0D0E43] font-lato text-base font-semibold hover:text-[#FB2E86] duration-300">Shop</span></Link></li>
             <li><Link href="/contact" passHref><span className="text-[#0D0E43] font-lato text-base font-semibold hover:text-[#FB2E86] duration-300">Contact</span></Link></li>
-            <li><Link href="/login" passHref><span className="text-[#0D0E43] font-lato text-base font-semibold hover:text-[#FB2E86] duration-300">Login</span></Link></li>
+            <li><Link href="Pages/Login" passHref><span className="text-[#0D0E43] font-lato text-base font-semibold hover:text-[#FB2E86] duration-300">Login</span></Link></li>
 
             {/* Mobile Search */}
             <div className="flex mt-2">
-              <input
-                type="text"
+              <Input
                 placeholder="Search..."
-                className="w-full py-2.5 px-3 text-base font-lato text-[#0D0E43] border-2 border-[#E7E6EF] outline-none border-r-0 rounded-l-md"
+                className="w-full"
+                inputClassName="rounded-l-md border-r-0"
               />
-              <div className="w-[50px] py-5 bg-[#FB2E86] rounded-r-md flex items-center justify-center text-2xl text-white">
+              <Button className="w-[50px] h-[50px] rounded-r-md p-0 text-2xl">
                 <CiSearch />
-              </div>
+              </Button>
             </div>
           </ul>
         </div>

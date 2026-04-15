@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import { FiMail, FiLock } from "react-icons/fi";
 import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
 import Link from "next/link";
+import Input from "@/utils/Input";
+import Button from "@/utils/Button";
 
 const page = () => {
   const [showPassword, setShowPassword] = useState(false);
@@ -15,37 +17,24 @@ const page = () => {
         </h2>
 
         <form className="space-y-5">
-          {/* Email Field */}
-          <div>
-            <label className="block mb-2 text-sm font-semibold text-gray-700">
-              Email Address
-            </label>
-            <div className="flex items-center border border-gray-300 rounded-xl px-3 py-2 focus-within:ring-2 focus-within:ring-yellow-400">
-              <FiMail className="text-gray-500 mr-2" />
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="w-full outline-none text-gray-700 bg-transparent"
-              />
-            </div>
-          </div>
+          <Input
+            label="Email Address"
+            type="email"
+            placeholder="Enter your email"
+            prefix={<FiMail className="text-gray-500" />}
+            inputClassName="bg-transparent outline-none"
+          />
 
-          {/* Password Field */}
-          <div>
-            <label className="block mb-2 text-sm font-semibold text-gray-700">
-              Password
-            </label>
-            <div className="flex items-center border border-gray-300 rounded-xl px-3 py-2 focus-within:ring-2 focus-within:ring-yellow-400">
-              <FiLock className="text-gray-500 mr-2" />
-              <input
-                type={showPassword ? "text" : "password"}
-                placeholder="Enter your password"
-                className="w-full outline-none text-gray-700 bg-transparent"
-              />
+          <Input
+            label="Password"
+            type={showPassword ? "text" : "password"}
+            placeholder="Enter your password"
+            prefix={<FiLock className="text-gray-500" />}
+            suffix={
               <button
                 type="button"
                 onClick={() => setShowPassword(!showPassword)}
-                className="text-gray-500 ml-2 focus:outline-none"
+                className="text-gray-500 focus:outline-none"
               >
                 {showPassword ? (
                   <AiOutlineEyeInvisible className="text-xl" />
@@ -53,10 +42,10 @@ const page = () => {
                   <AiOutlineEye className="text-xl" />
                 )}
               </button>
-            </div>
-          </div>
+            }
+            inputClassName="bg-transparent outline-none"
+          />
 
-          {/* Remember + Forgot */}
           <div className="flex justify-between items-center text-sm text-gray-600">
             <label className="flex items-center space-x-2">
               <input type="checkbox" className="accent-yellow-400" />
@@ -67,13 +56,12 @@ const page = () => {
             </a>
           </div>
 
-          {/* Login Button */}
-          <button
+          <Button
             type="button"
             className="w-full bg-yellow-400 text-gray-900 font-semibold py-2 rounded-xl hover:bg-yellow-500 transition"
           >
             Login
-          </button>
+          </Button>
 
           {/* Signup Text */}
           <p className="text-center text-sm text-gray-600">

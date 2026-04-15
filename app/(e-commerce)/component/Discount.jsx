@@ -74,7 +74,7 @@ const Discount = () => {
 
               {/* ---------- Button ---------- */}
               <div className='mt-8'>
-                <Link href={'#'}
+                <Link href={'about'}
                   className='inline-block py-[12px] md:py-[15px] px-[35px] md:px-[43px] bg-pink rounded-[5px] text-white font-lato font-medium text-base hover:bg-[#2F1AC4] duration-300'>
                   Shop Now
                 </Link>

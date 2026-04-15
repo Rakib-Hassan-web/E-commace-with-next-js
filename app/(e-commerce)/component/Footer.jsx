@@ -1,5 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
+import Input from '@/utils/Input'
+import Button from '@/utils/Button'
 
 const Footer = () => {
   return (
@@ -13,14 +15,15 @@ const Footer = () => {
         <div className="md:w-1/4 pt-20">
           <h2 className="text-2xl text-[38px] font-normal font-adaminaaa text-black  mb-4">Hekto</h2>
           <div className="flex">
-            <input
+            <Input
               type="email"
               placeholder="Enter Email Address"
-              className="px-3 py-2 w-[250px] border-none bg-white rounded-l-md outline-none"
+              className="max-w-[250px]"
+              inputClassName="rounded-l-md border-none"
             />
-            <button className="bg-pink-500 text-white px-4 py-2 rounded-r-md hover:bg-pink-600">
+            <Button className="rounded-r-md px-4">
               Sign Up
-            </button>
+            </Button>
           </div>
           <div className="mt-4 text-sm text-gray-600">
             <p className="font-normal text-base text-[#8A8FB9] font-lato ">Contact Info</p>
